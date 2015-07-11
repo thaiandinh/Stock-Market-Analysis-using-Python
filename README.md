@@ -6,24 +6,16 @@ Next , I will perform risk analysis using VAR(value at risk) method.
 Lastly , I will do Monte Carlo simulations to predict how the stock can perform in the future
 
 Import some packages 
-        import pandas as pd
-        from pandas import Series,DataFrame
-        import numpy as np
-
-# For Visualization
-        import matplotlib.pyplot as plt
-        import seaborn as sns
-        sns.set_style('whitegrid')
-        %matplotlib inline
-
-# For reading stock data from yahoo
-        from pandas.io.data import DataReader
-
-# For time stamps
-        from datetime import datetime
-
-# For division
-        from __future__ import division
+         import pandas as pd
+         from pandas import Series,DataFrame
+         import numpy as np
+         import matplotlib.pyplot as plt
+         import seaborn as sns
+         sns.set_style('whitegrid')
+         %matplotlib inline
+         from pandas.io.data import DataReader
+         from datetime import datetime
+         from __future__ import division
 
 # Below is the stocks that will be used for analysis(Apple, Google, MSN, Amazon)
         tech_list = ['AAPL','GOOG','MSFT','AMZN']
