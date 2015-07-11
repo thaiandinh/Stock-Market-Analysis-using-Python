@@ -1,9 +1,8 @@
-Stockprediction using Python 
-In this project, I will download information about some stocks from Yahoo Finance .
-and then  I will explore and visualize the data tosee
-how the stocks perfomed overtime, how they are correlated with each other.
-Next , I will perform risk analysis using VAR(value at risk) method. 
-Lastly , I will do Monte Carlo simulations to predict how the stock can perform in the future
+ 	In this project, I will download information about some stocks from Yahoo Finance .
+	and then  I will explore and visualize the data tosee
+	how the stocks perfomed overtime, how they are correlated with each other.
+	Next , I will perform risk analysis using VAR(value at risk) method. 
+	Lastly , I will do Monte Carlo simulations to predict how the stock can perform in the future
 
 	#Import some packages 
         	import pandas as pd
