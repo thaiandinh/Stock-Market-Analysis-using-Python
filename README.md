@@ -1,32 +1,32 @@
-# Stockprediction using Python 
-## In this project, I will download information about some stocks from Yahoo Finance .
-## and then  I will explore and visualize the data tosee
+Stockprediction using Python 
+In this project, I will download information about some stocks from Yahoo Finance .
+and then  I will explore and visualize the data tosee
 how the stocks perfomed overtime, how they are correlated with each other.
-## Next , I will perform risk analysis using VAR(value at risk) method. 
-##Lastly , I will do Monte Carlo simulations to predict how the stock can perform in the future
+Next , I will perform risk analysis using VAR(value at risk) method. 
+Lastly , I will do Monte Carlo simulations to predict how the stock can perform in the future
 
-#Import some packages 
-import pandas as pd
-from pandas import Series,DataFrame
-import numpy as np
+Import some packages 
+        import pandas as pd
+        from pandas import Series,DataFrame
+        import numpy as np
 
 # For Visualization
-import matplotlib.pyplot as plt
-import seaborn as sns
-sns.set_style('whitegrid')
-%matplotlib inline
+        import matplotlib.pyplot as plt
+        import seaborn as sns
+        sns.set_style('whitegrid')
+        %matplotlib inline
 
 # For reading stock data from yahoo
-from pandas.io.data import DataReader
+        from pandas.io.data import DataReader
 
 # For time stamps
-from datetime import datetime
+        from datetime import datetime
 
 # For division
-from __future__ import division
+        from __future__ import division
 
 # Below is the stocks that will be used for analysis(Apple, Google, MSN, Amazon)
-tech_list = ['AAPL','GOOG','MSFT','AMZN']
+        tech_list = ['AAPL','GOOG','MSFT','AMZN']
 
 # Set up End and Start times for data grab
 end = datetime.now()
